@@ -23,7 +23,7 @@
 * **com.example.controller:** Pacote contendo os componentes Controller e serviços REST.
 * **com.example.util:**  Pacote contendo as classes utilitárias configuração da documentação com Swagger e configuração de uma TaskExecutor para salvamento assíncrono de cadastro de pessoas.
 
-### Pré-requisitos ###
+### Pré-requisitos - (Instalações e configurações) ###
 * JDK - versão 1.8 do Java;
 * Maven - para build e dependências.
 * Após baixar os fontes, para executar a aplicação é necessário:
