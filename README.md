@@ -1,8 +1,8 @@
 ## Projeto API Rest em Java com Spring Framework(Spring Boot e Spring Data)
 
 ### Sobre o projeto ###
-    Aplicação Java Web. Além de código fonte e configurações, segue também a descrição de como o projeto foi desenvolvido e o que foi adotado para implementar.
-    Essa aplicação foi desenvolvida seguindo os modelos de arquitetura MVC e REST.
+   Aplicação Java Web. Além de código fonte e configurações, segue também a descrição de como o projeto foi desenvolvido e o que foi adotado para implementar.
+   Essa aplicação foi desenvolvida seguindo os modelos de arquitetura MVC e REST.
 
 ### Tecnologias Utilizadas ###
 * **Java versão 8.**
@@ -32,7 +32,7 @@
 Para executar a aplicação pela primeira vez execute o comando maven para baixar as dependências e buildar:
 * **$ mvn clean package spring-boot:run**
 
-* As demais execuções pode ser usado o comando abaixo:
+As demais execuções pode ser usado o comando abaixo:
 * **$ java -jar target/person-rest-api-0.0.1-SNAPSHOT.jar**
 
 * Para acessar as funcionalidades da api utilizei o Postman:
