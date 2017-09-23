@@ -50,14 +50,12 @@ Deletar Pessoas (http://localhost:8080/person/delete/{id})</br>
 Pesquisar Pessoa por CPF (http://localhost:8080/person/search/{cpf})
 
 ### JSON ###
-<b>{</br>
+<b>
+{</br>
    "nome": "Fulano",</br>
    "sobrenome": "de Tal",</br>
    "nascimento": "2013-03-11T01:38:18.309Z",</br>
    "endereco": "Rua Liberdade 363",</br>
    "cpf": "88993456720",</br>
-   "telefones": {</br>
-       "Trabalho": "11 23456-7654",</br>
-       "Casa": "11 67890-0981"</br>
-   }</br>
+   "telefones": {"Trabalho": "11 23456-7654","Casa": "11 67890-0981"}</br>
 }</b>
