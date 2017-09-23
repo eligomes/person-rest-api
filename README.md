@@ -40,16 +40,16 @@ No diretório "src/main/resources" tem um arquivo "person-postman.json" que pode
 
 * Para a simulação do cadastro de pessoas em lote por falta de conexão, foi adicionado ao cadastro um time de 20 segundos, durante esse intervalo os cadastro podem ser feito normalmente, consulte a lista de pessoas antes e depois desse intervalo para visualizar as pessoas cadastradas. Tal processo é possível utilizando um recurso do spring boot de execução assíncrona no método de cadastro de pessoas. 
 
-A documentação da API pode ser acessada no endereço:
+A documentação da API pode ser acessada no endereço baixo com a aplicação rodando:
 * http://localhost:8080/swagger-ui.html#/person-controller
 
 Listar Pessoas
-* http://localhost:8080/person
+* http://localhost:8080/person </br>
 Cadastrar Pessoas
-* http://localhost:8080/person/add
+* http://localhost:8080/person/add</br>
 Editar Pessoas
-* http://localhost:8080/person/edit/{id}
+* http://localhost:8080/person/edit/{id}</br>
 Deletar Pessoas
-* http://localhost:8080/person/delete/{id}
+* http://localhost:8080/person/delete/{id}</br>
 Pesquisar pessoa por CPF
 * http://localhost:8080/person/search/{cpf}
