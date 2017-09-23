@@ -42,13 +42,9 @@ No diretório "src/main/resources" tem um arquivo "person-postman.json" que pode
 
 A documentação da API pode ser acessada no endereço baixo com a aplicação rodando:
 * http://localhost:8080/swagger-ui.html#/person-controller </br></br>
-Listar Pessoas
-* http://localhost:8080/person </br>
-Cadastrar Pessoas
-* http://localhost:8080/person/add</br>
-Editar Pessoas
-* http://localhost:8080/person/edit/{id}</br>
-Deletar Pessoas
-* http://localhost:8080/person/delete/{id}</br>
-Pesquisar pessoa por CPF
-* http://localhost:8080/person/search/{cpf}
+
+Listar Pessoas (http://localhost:8080/person) </br>
+Cadastrar Pessoas (http://localhost:8080/person/add)</br>
+Editar Pessoas (http://localhost:8080/person/edit/{id})</br>
+Deletar Pessoas (http://localhost:8080/person/delete/{id})</br>
+Pesquisar Pessoa por CPF (http://localhost:8080/person/search/{cpf})
