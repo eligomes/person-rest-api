@@ -38,7 +38,7 @@ As demais execuções pode ser usado o comando abaixo:
 * Para acessar as funcionalidades da api utilizei o Postman:
 No diretório **"src/main/resources"** tem um arquivo **person-postman.json"** que pode ser importado no Postman, nele contém todos os endereços listados abaixos prontos para serem executados, basta apenas escolher a opção **"Import"** no canto superior esquerdo da ferramenta e selecionar o arquivo person-postman.json para importação.
 
-* Para a simulação do cadastro de pessoas em lote por falta de conexão, foi adicionado ao cadastro um time de 20 segundos, durante esse intervalo os cadastro podem ser feito normalmente, consulte a lista de pessoas antes e depois desse intervalo para visualizar as pessoas cadastradas. Tal processo é possível utilizando um recurso do spring boot de execução assíncrona no método de cadastro de pessoas. 
+* Para a simulação do cadastro de pessoas em lote por falta de conexão, foi adicionado ao cadastro um time de 20 segundos, durante esse intervalo os cadastro podem ser feito normalmente, consulte a lista de pessoas antes e depois desse intervalo para visualizar as pessoas cadastradas. Tal processo é possível utilizando um recurso do spring boot de execução de thread  assíncrona no método de cadastro de pessoas. 
 
 A documentação da API pode ser acessada no endereço baixo com a aplicação rodando:
 * http://localhost:8080/swagger-ui.html#/person-controller </br></br>
