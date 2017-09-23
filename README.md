@@ -48,3 +48,16 @@ Cadastrar Pessoas (http://localhost:8080/person/add)</br>
 Editar Pessoas (http://localhost:8080/person/edit/{id})</br>
 Deletar Pessoas (http://localhost:8080/person/delete/{id})</br>
 Pesquisar Pessoa por CPF (http://localhost:8080/person/search/{cpf})
+
+### JSON ###
+<b>{
+   "nome": "Fulano",
+   "sobrenome": "de Tal",
+   "nascimento": "2013-03-11T01:38:18.309Z",
+   "endereco": "Rua Liberdade 363",
+   "cpf": "88993456720",
+   "telefones": {
+       "Trabalho": "11 23456-7654",
+       "Casa": "11 67890-0981"
+   }
+}</b>
