@@ -1,7 +1,7 @@
 ## Projeto API Rest em Java com Spring Framework(Spring Boot e Spring Data)
 
 ### Sobre o projeto ###
-   Aplicação Java Web. Além de código fonte e configurações, segue também a descrição de como o projeto foi desenvolvido e o que foi adotado para implementar.
+   Aplicação Java Rest. Além de código fonte e configurações, segue também a descrição de como o projeto foi desenvolvido e o que foi adotado para implementar.
    Essa aplicação foi desenvolvida seguindo os modelos de arquitetura MVC e REST.
 
 ### Tecnologias Utilizadas ###
