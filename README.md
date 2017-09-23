@@ -16,7 +16,7 @@
 * Postman: Cliente Rest para acessar a API.
 
 ### Camadas e pacotes ###
-* com.example: Pacote com as configurações necessárias para o start da aplicação.
+* **com.example:** Pacote com as configurações necessárias para o start da aplicação.
 * com.example.model: Pacote contendo as entidades persistentes, mapeadas com anotações JPA.
 * com.example.repository: Pacote contendo as interfaces de persistência.
 * com.example.service: Pacote contendo os componentes de negócio, que são responsáveis por orquestrar os componentes de acesso a dados, transação com banco de dados e eventuais validações.
@@ -30,10 +30,10 @@
 * Criar um banco com o nome "person-data" em uma instância no MySql, as configurações de conexão podem ser encontradas no arquivo src/main/resources/application.properties. (Usuario: root, Senha: root). A configuração está habilitada para criar a tabela “person” toda vez que a aplicação for executada.
 
 * Para executar a aplicação pela primeira vez execute o comando maven para baixar as dependências e buildar:
-$ mvn clean package spring-boot:run
+  $ mvn clean package spring-boot:run
 
 * As demais execuções pode ser usado o comando abaixo:
-$ java -jar target/person-rest-api-0.0.1-SNAPSHOT.jar
+  $ java -jar target/person-rest-api-0.0.1-SNAPSHOT.jar
 
 * Para acessar as funcionalidades da api utilizei o Postman:
 No diretório "src/main/resources" tem um arquivo "person-postman.json" que pode ser importado no Postman, nele contém todos os endereços listados abaixos prontos para serem executados, basta apenas escolher a opção "import" no canto superior esquerdo da ferramenta e selecionar o arquivo "person-postman.json" para importação.
